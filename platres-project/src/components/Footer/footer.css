@@ -1,0 +1,48 @@
+.footerContainer {
+  width: 100vw;
+  height: 120px;
+
+  box-sizing: border-box;
+
+  background-color: transparent;
+  color: rgb(128, 128, 128);
+
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footerContainer p {
+  text-align: center;
+}
+
+.footerContainerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.socialMedia {
+  width: 170px;
+}
+
+.socialMedia i {
+  color: rgb(128, 128, 128);
+  margin-left: 1rem;
+}
+
+.twitter:hover {
+  color: rgb(28, 155, 239);
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in, color 0.5s ease-in;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  color: rgb(196, 50, 116);
+
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in, color 0.5s ease-in;
+  cursor: pointer;
+}

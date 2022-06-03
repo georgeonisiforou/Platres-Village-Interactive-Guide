@@ -1,0 +1,33 @@
+.mapContainer {
+  height: 60vh;
+  width: 95vw;
+  margin: 1rem;
+  border: 1px solid black;
+  box-shadow: 5px 10px 20px rgb(25, 32, 36);
+  position: relative;
+
+  box-sizing: border-box;
+}
+
+i {
+  color: #fae2bb;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  animation: fading 0.5s ease-in;
+}
+
+i:hover {
+  color: #f84a1f;
+
+  transition: color 0.5s ease-in;
+  cursor: pointer;
+}
+
+@keyframes fading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

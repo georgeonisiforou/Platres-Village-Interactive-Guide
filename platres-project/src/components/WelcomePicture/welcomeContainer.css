@@ -1,0 +1,54 @@
+.welcomeContainer {
+  box-sizing: border-box;
+  color: rgb(246, 249, 252);
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: normal;
+  text-align: left;
+  padding: 2rem;
+  width: 60vw;
+  height: auto;
+  position: relative;
+  top: 150px;
+}
+
+.welcomeContainer h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  margin-bottom: 0;
+  background: linear-gradient(-160deg, #fae2bb 0%, #81a371 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.welcomeBtn {
+  color: rgb(246, 249, 252);
+  cursor: pointer;
+  margin-top: 1.5rem;
+
+  outline: none;
+  border: 0.5px solid #fae2bb;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 1.2rem;
+}
+
+.welcomeBtn:hover {
+  color: #000;
+  background-color: #fae2bb;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcomeContainer {
+    width: 100vw;
+  }
+  .welcomeContainer h1 {
+    font-size: 2rem;
+  }
+}
